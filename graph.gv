@@ -5,32 +5,19 @@ fontname="Helvetica,Arial,sans-serif"
 	node [fontname="Helvetica,Arial,sans-serif"]
 	edge [fontname="Helvetica,Arial,sans-serif"]
 	subgraph "Dungeons" {
-		10000 [label="dungeon template"];
-		10001 [label="Kardorim"];
-		10002 [label="Field Dungeon - Famished Sunflower"];
-		10003 [label="Gobball Dungeon - Royal Gobball"];
-		10004 [label="Skeleton Dungeon - Ronin Chafer"];
-		10005 [label="Tofu Dungeon - Batofu"];
-		10006 [label="Scaraleaf Dungeon - Golden Scarabugly"];
-		10007 [label="Smith Dungeon - Smiths' Chest"];
-		10008 [label="Bwork Dungeon - Bworkette"];
-		10009 [label="Larva Dungeon - Shin Larva"];
-		10010 [label="Kwakwa Dungeon - Kwakwa"];
-		10011 [label="Crackler Dungeon - Legendary Crackler"];
-		10012 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label=""];
-		10000 [label="hi"];
+        
+		10000 [shape=box,color=blue,label="dungeon template"];
+		10001 [shape=box,color=blue,label="Kardorim"];
+		10002 [shape=box,color=blue,label="Field Dungeon - Famished Sunflower"];
+		10003 [shape=box,color=blue,label="Gobball Dungeon - Royal Gobball"];
+		10004 [shape=box,color=blue,label="Skeleton Dungeon - Ronin Chafer"];
+		10005 [shape=box,color=blue,label="Tofu Dungeon - Batofu"];
+		10006 [shape=box,color=blue,label="Scaraleaf Dungeon - Golden Scarabugly"];
+		10007 [shape=box,color=blue,label="Smith Dungeon - Smiths' Chest"];
+		10008 [shape=box,color=blue,label="Bwork Dungeon - Bworkette"];
+		10009 [shape=box,color=blue,label="Larva Dungeon - Shin Larva"];
+		10010 [shape=box,color=blue,label="Kwakwa Dungeon - Kwakwa"];
+		10011 [shape=box,color=blue,label="Crackler Dungeon - Legendary Crackler"];
 	}
 	subgraph "Metamunch Kin"{
 	    1 [label="Trip around the world"];
@@ -38,6 +25,8 @@ fontname="Helvetica,Arial,sans-serif"
 
 	    1 -> 2;
 
+        1 -> 10002
+        2 -> 10003;
 	}
 
 	subgraph "The Key Master" {
@@ -52,6 +41,8 @@ fontname="Helvetica,Arial,sans-serif"
 
 
 	    2 -> 3 -> 4 -> 5 -> 6 -> 3
+        4 -> 10004;
+        5 -> 10005;
 	}
 	subgraph "The Master's Henchmen" {
 	    7 [label="The Master's Henchmen"];
@@ -63,6 +54,13 @@ fontname="Helvetica,Arial,sans-serif"
 	    13 [label="Legendary Crackler"];
 
 	    3 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 7;
+
+        8 -> 10006;
+        9 -> 10007;
+        10 -> 10008;
+        11 -> 10009;
+        12 -> 10010;
+        13 -> 10011;
 	}
 	subgraph "A Hysterical Judge" {
 	    14 [label="A Hysterical Judge"];
