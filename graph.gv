@@ -1,0 +1,109 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	subgraph "Dungeons" {
+		1000 [label="dungeon template"];
+		1001 [label="Kardorim"];
+		1002 [label="Field Dungeon - Famished Sunflower"];
+		1003 [label="Gobball Dungeon - Royal Gobball"];
+		1004 [label="Skeleton Dungeon - Ronin Chafer"];
+		1005 [label="Tofu Dungeon - Batofu"];
+		1006 [label="Scaraleaf Dungeon - Golden Scarabugly"];
+		1007 [label="Smith Dungeon - Smiths' Chest"];
+		1008 [label="Bwork Dungeon - Bworkette"];
+		1009 [label="Larva Dungeon - Shin Larva"];
+		1010 [label="Kwakwa Dungeon - Kwakwa"];
+		1011 [label="Crackler Dungeon - Legendary Crackler"];
+		1012 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label=""];
+		1000 [label="hi"];
+	}
+subgraph "Metamunch Kin"{
+    1 [label="Trip around the world"];
+    2 [label="Back to our gobblies"];
+    
+    1 -> 2;
+    
+}
+
+subgraph "The Key Master" {
+    3 [label="The Key Master"];
+    4 [label="Step 2"];
+    5 [label="Step 3"];
+    6 [label="Step 4"];
+    style=filled;
+	color=lightgrey;
+	node [style=filled,color=white];
+ 	label = "process #1";
+
+    
+    2 -> 3 -> 4 -> 5 -> 6 -> 3
+}
+subgraph "The Master's Henchmen" {
+    7 [label="The Master's Henchmen"];
+    8 [label="Step 1"];
+    9 [label="Step 2"];
+    10 [label="Step 3"];
+    11 [label="Step 4"];
+    12 [label="Step 5"];
+    13 [label="Step 6"];
+
+    3 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 7;
+}
+subgraph "A Hysterical Judge" {
+    14 [label="A Hysterical Judge"];
+    15 [label="Step 1"];
+    16 [label="Step 2"];
+    17 [label="Step 3"];
+    18 [label="Step 4"];
+    19 [label="Step 5"];
+    20 [label="Step 6"];
+    7 -> 14 -> 15 -> 16 -> 17 -> 18 -> 19 -> 20 -> 14;
+}
+subgraph "Dungeons and Yet More Dungeons" {
+    21 [label="Dungeons and Yet More Dungeons"];
+    22 [label="Step 1"];
+    23 [label="Step 2"];
+    24 [label="Step 3"];
+    25 [label="Step 4"];
+    26 [label="Step 5"];
+    27 [label="Step 6"];
+    14 -> 21 -> 22 -> 23 -> 24 -> 25 -> 26 -> 27 -> 21
+}
+subgraph "The Warrior's Path" {
+    28 [label="The Warrior's Path"];
+    29 [label="Step 1"];
+    30 [label="Step 2"];
+    31 [label="Step 3"];
+    32 [label="Step 4"];
+    33 [label="Step 5"];
+    34 [label="Step 6"];
+    21 -> 28 -> 29 -> 30 -> 31 -> 32 -> 33 -> 34 -> 28;
+}
+subgraph "Belina Thumb" {
+    35 [label="Foam Dungeon"];
+    36 [label="Rikiki Dungeon"];
+    37 [label="Raggy Dungeon"];
+    38 [label="Cosy Dungeon"];
+    39 [label="Brilliant Dungeon"];
+    35 -> 36 -> 37 -> 38 -> 39;
+}
+subgraph "Warrior Worries" {
+    42 [label="Warrior Worries"]
+    28 -> 42;
+}
+}
