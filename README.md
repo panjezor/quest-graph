@@ -1,5 +1,7 @@
 # Dofus Quest Graph
 
+### Introduction
+
 Every now and then, whenever new server comes up, we want to create a new main or we're coming to some content we haven't approached before, we usually rely on dofuspourlesnoobs, dofuswiki or some other pages to help us see where to go and what to do.
 
 Sometimes though we do encounter a questline that requires another questline that requires another questline that requires something else again.
@@ -13,3 +15,10 @@ Therefore, I am looking for people that would like to contribute to such a proje
 My discord tag is Jenuzor#7117, pm me if you're up!
 
 If you have any additional comments or suggestions, feel free to put them in!
+
+
+### How to use it
+
+Copy-paste the contents of graph.pv into a GraphViz engine, like edotor.net .
+
+This should show you what it looks like.
