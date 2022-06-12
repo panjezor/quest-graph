@@ -44,3 +44,10 @@ subgraph "{questline name}" {
 ```
 
 Please try to put the IDs below one another, so that the last questline subgraph has the highest ID.
+
+
+### TODO
+
+- All dungeons and quests
+- A decision on colouring and shaping. We can use different shapes like box/ellipse/circle/rhombus, as well as different colors for the borders/background/links to depict the relation, e.g. red line between nodes means that the step ends the quest, blue line between nodes is a dungeon-quest link, golden line is for achievements etc.
+- Find a way of how to position them together, so they would be more readable in the longer term. Maybe put the dungeons in a straight line and then other quest lines would just go in parallel, rather than make them float around one another?
