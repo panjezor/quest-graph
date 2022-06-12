@@ -22,3 +22,25 @@ If you have any additional comments or suggestions, feel free to put them in!
 Copy-paste the contents of graph.pv into a GraphViz engine, like edotor.net .
 
 This should show you what it looks like.
+
+
+### How to contribute
+
+Try to edit the graph.gv file, and then submit that in a PR.
+
+We want to create more ``` subgraphs ``` that show different quests and then link them to the dungeons.
+
+Dungeons will be a separate subgraph on it's own.
+
+The colouring, shapes, linking is not decided yet.
+
+So far, the template for a new quest/questline is
+```
+subgraph "{questline name}" {
+  {unique ID} [label="{quest name or step name}"];
+  {unique ID} [label="{quest name or step name}"];
+  {unique ID} [label="{quest name or step name}"];
+}
+```
+
+Please try to put the IDs below one another, so that the last questline subgraph has the highest ID.
