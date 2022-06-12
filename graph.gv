@@ -42,9 +42,9 @@ fontname="Helvetica,Arial,sans-serif"
 
 	subgraph "The Key Master" {
 	    3 [label="The Key Master"];
-	    4 [label="Step 2"];
-	    5 [label="Step 3"];
-	    6 [label="Step 4"];
+	    4 [label="Ronin Chafer"];
+	    5 [label="Batofu"];
+	    6 [label="Jumbo Mumbo"];
 	    style=filled;
 		color=lightgrey;
 		node [style=filled,color=white];
@@ -55,43 +55,43 @@ fontname="Helvetica,Arial,sans-serif"
 	}
 	subgraph "The Master's Henchmen" {
 	    7 [label="The Master's Henchmen"];
-	    8 [label="Step 1"];
-	    9 [label="Step 2"];
-	    10 [label="Step 3"];
-	    11 [label="Step 4"];
-	    12 [label="Step 5"];
-	    13 [label="Step 6"];
+	    8 [label="Golden Scarabugly"];
+	    9 [label="Smiths' Chest"];
+	    10 [label="Bworkette"];
+	    11 [label="Shin Larva"];
+	    12 [label="Kwakwa"];
+	    13 [label="Legendary Crackler"];
 
 	    3 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 7;
 	}
 	subgraph "A Hysterical Judge" {
 	    14 [label="A Hysterical Judge"];
-	    15 [label="Step 1"];
-	    16 [label="Step 2"];
-	    17 [label="Step 3"];
-	    18 [label="Step 4"];
-	    19 [label="Step 5"];
-	    20 [label="Step 6"];
+	    15 [label="Ancestral Treechnid"];
+	    16 [label="Dragon Pig"];
+	    17 [label="Koolich"];
+	    18 [label="Moowolf"];
+	    19 [label="White Rat"];
+	    20 [label="Black Rat"];
 	    7 -> 14 -> 15 -> 16 -> 17 -> 18 -> 19 -> 20 -> 14;
 	}
 	subgraph "Dungeons and Yet More Dungeons" {
 	    21 [label="Dungeons and Yet More Dungeons"];
-	    22 [label="Step 1"];
-	    23 [label="Step 2"];
-	    24 [label="Step 3"];
-	    25 [label="Step 4"];
-	    26 [label="Step 5"];
-	    27 [label="Step 6"];
+	    22 [label="Lord Crow"];
+	    23 [label="Royal Mastogob"];
+	    24 [label="Minotoror"];
+	    25 [label="Royal Tofu"];
+	    26 [label="Crocabulia"];
+	    27 [label="Key Master"];
 	    14 -> 21 -> 22 -> 23 -> 24 -> 25 -> 26 -> 27 -> 21
 	}
 	subgraph "The Warrior's Path" {
 	    28 [label="The Warrior's Path"];
-	    29 [label="Step 1"];
-	    30 [label="Step 2"];
-	    31 [label="Step 3"];
-	    32 [label="Step 4"];
-	    33 [label="Step 5"];
-	    34 [label="Step 6"];
+	    29 [label="Skeunk"];
+	    30 [label="Tanukoui San"];
+	    31 [label="Founoroshi"];
+	    32 [label="Soft Oak"];
+	    33 [label="Minotot"];
+	    34 [label="Bworker"];
 	    21 -> 28 -> 29 -> 30 -> 31 -> 32 -> 33 -> 34 -> 28;
 	}
 	subgraph "Belina Thumb" {
